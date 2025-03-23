@@ -3,7 +3,7 @@ Project uses .NET 8.0 and Postgres.
 Api endpoints can be seen from Swagger.
 
 
-1) open the DeliveryFeeCalculator folder
+1) open the DeliveryFeeCalculatorBE folder
 
 Run these commands to get the database migrated and Docker container running.
 
@@ -19,11 +19,12 @@ dotnet run --project WebApp/WebApp.csproj
 
 ~~~
 
-2) open the DeliveryFeeCalculatorFront folder and run following commands:
+2) open the DeliveryFeeCalculatorFE folder and run following commands:
 
 ~~~bash
 
 npm install
+npm install axios
 npm run dev
 
 ~~~
